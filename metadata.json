@@ -1,0 +1,6 @@
+{
+  "name": "AI Smart Resume Builder",
+  "description": "Create professional resumes from scratch, or upload, parse, and optimize existing resumes with intelligent AI improvements, ATS score analysis, and instant PDF downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
