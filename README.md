@@ -2,6 +2,8 @@
 
 # 🚀 DCResume AI — Smart Resume Builder & ATS Optimizer
 
+**Created by Chetan Janjalkar**
+
 **Build resumes that actually get you hired.**
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev)

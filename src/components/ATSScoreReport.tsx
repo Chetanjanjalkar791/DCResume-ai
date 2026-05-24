@@ -106,7 +106,7 @@ export const ATSScoreReport: React.FC<ATSScoreReportProps> = ({
           {/* Positives & Recommended Skills */}
           <div className="space-y-4">
             {/* Strengths Card */}
-            <div className="bg-emerald-50/50 dark:bg-emerald-950/20 backdrop-blur-md border border-emerald-150 dark:border-emerald-900/50 rounded-2xl p-4">
+            <div className="bg-emerald-50/50 dark:bg-emerald-950/20 backdrop-blur-md border border-emerald-200 dark:border-emerald-900/50 rounded-2xl p-4">
               <h4 className="text-xs font-bold text-emerald-800 dark:text-emerald-400 uppercase tracking-widest flex items-center gap-1.5 mb-2">
                 <CheckCircle size={14} />
                 <span>Found Strengths</span>
@@ -125,7 +125,7 @@ export const ATSScoreReport: React.FC<ATSScoreReportProps> = ({
             </div>
 
             {/* Missing Keywords & Recommended Skills */}
-            <div className="bg-indigo-50/50 dark:bg-indigo-950/20 backdrop-blur-md border border-indigo-150 dark:border-indigo-900/50 rounded-2xl p-4 space-y-4">
+            <div className="bg-indigo-50/50 dark:bg-indigo-950/20 backdrop-blur-md border border-indigo-200 dark:border-indigo-900/50 rounded-2xl p-4 space-y-4">
               <div>
                 <h4 className="text-xs font-bold text-indigo-800 dark:text-indigo-400 uppercase tracking-widest flex items-center gap-1.5 mb-2">
                   <List size={14} />
@@ -178,8 +178,8 @@ export const ATSScoreReport: React.FC<ATSScoreReportProps> = ({
             </div>
 
             {/* Grammar / Editing Issues */}
-            <div className="bg-rose-50/50 dark:bg-rose-950/15 backdrop-blur-md border border-rose-150 dark:border-rose-900/35 rounded-2xl p-4">
-              <h4 className="text-xs font-bold text-rose-850 dark:text-rose-450 uppercase tracking-widest flex items-center gap-1.5 mb-2">
+            <div className="bg-rose-50/50 dark:bg-rose-950/15 backdrop-blur-md border border-rose-200 dark:border-rose-900/35 rounded-2xl p-4">
+              <h4 className="text-xs font-bold text-rose-800 dark:text-rose-400 uppercase tracking-widest flex items-center gap-1.5 mb-2">
                 <AlignLeft size={14} />
                 <span>Grammar & Stylistic Refinements</span>
               </h4>
@@ -262,7 +262,7 @@ export const ATSScoreReport: React.FC<ATSScoreReportProps> = ({
               </div>
 
               <div className="p-4 bg-red-50/40 dark:bg-rose-950/10 border border-red-100 dark:border-rose-950 rounded-xl">
-                <h4 className="text-[11px] font-bold text-red-800 dark:text-rose-450 uppercase tracking-widest mb-2 flex items-center gap-1.5">
+                <h4 className="text-[11px] font-bold text-red-800 dark:text-rose-400 uppercase tracking-widest mb-2 flex items-center gap-1.5">
                   <AlertTriangle size={13} />
                   <span>Missing Vital Keywords ({keywordReport.missingKeywords?.length || 0})</span>
                 </h4>
